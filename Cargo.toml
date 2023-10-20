@@ -1,0 +1,13 @@
+[package]
+name = "curl-rust-example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+curl = "0.4.44"
+http = "0.2.9"
+tokio = { version = "1.33.0", features = ["full"] }
+url = "2.4.1"
+wiremock = "0.5.19"
